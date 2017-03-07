@@ -1,5 +1,6 @@
 #include<iostream>
 #include"string.h" 
+#include"stdlib.h"
 using namespace std;
 
 void insertsort(int arr[], int s){
@@ -17,7 +18,7 @@ int main(){
 	int array[] = { -1, 5, 0, 2 }, ss = 0;
 	ss = sizeof(array) / sizeof(array[0]);
 	insertsort(array, ss);
-	cout << "脜脜脨貌潞贸碌脛陆谩鹿没脢脟拢潞" << endl;
+	cout << "排序后的结果是：" << endl;
 	for (int i = 0; i<ss; i++)
 		cout << array[i] << " ";
 	system("pause");
